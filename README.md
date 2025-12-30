@@ -1,12 +1,41 @@
-# React + Vite
+For Github:
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <Repo-url>
+git push -u origin main  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Components Based UI:
+src/
+├── components/
+│   ├── Login.jsx
+│   ├── Sidebar.jsx
+│   ├── Header.jsx
+│   ├── MetricsCard.jsx
+│   ├── Dashboard.jsx
+│   ├── UserManagement.jsx
+│   ├── UserModal.jsx
+│   └── Analytics.jsx
+├── App.jsx (main orchestrator)
+├── index.css
+└── main.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+New Dashboard Features:
+1. Metrics Cards - Show key numbers at a glance (users, signups, sales, active users)
+2. Quick Overview Section - 3 simple stat cards showing:
+
+User Engagement: 85%
+Customer Satisfaction: 92%
+Conversion Rate: 78%
+
+3. Recent Activity Feed - Shows recent events with colored dots:
+
+New user registered (green)
+Payment received (blue)
+Product updated (purple)
+System backup completed (orange)
